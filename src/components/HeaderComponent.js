@@ -26,7 +26,14 @@ class Header extends Component {
       <div className="header navbar-scroll">
             <div className="row">
               <div className="col-6">
-                <Media className="logo" object src='/assets/images/imgs-12.png' alt='logo' />
+                <picture>
+                      <source media="(max-width: 575px)" srcset="/assets/images/imgs-12.png" />
+                      <source media="(max-width: 768px)" srcset="/assets/images/imgs-12.png" />
+                      <source media="(max-width: 991px)" srcset="/assets/images/imgs-12.png" />
+                      <source media="(max-width: 1199px)" srcset="/assets/images/imgs-12.png" />
+                      <img src="/assets/images/imgs-12.png"  />
+                </picture>
+                
               </div>
 
               <div className="col-5">
