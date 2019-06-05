@@ -1,4 +1,6 @@
 import React, { Component } from 'react';
+import Header from './HeaderComponent';
+import Home from './HomeComponent';
 import {Switch, Route, Redirect, withRouter } from 'react-router-dom';
 
 class Main extends Component {
@@ -6,7 +8,18 @@ class Main extends Component {
   render(){
     return(
       <div>
-        <h1> Cambuche del Mono </h1>
+        <Header />
+        <div>
+          <Switch>
+              <Route exact path='/' component={Home} />
+              <Route exact path='/home' component={Home} />
+              <Route path='/menu' component={Home} />
+              <Route path='/actividades' component={Home} />
+              <Route path='/reservas' component={Home} />
+              <Route path='/galeria' component={Home} />
+              <Route path='/contacto' component={Home} />
+          </Switch>
+        </div>
       </div>
     );
 
@@ -14,4 +27,4 @@ class Main extends Component {
 
 }
 
-export default Main;
+export default withRouter(Main);
