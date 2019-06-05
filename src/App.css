@@ -21,6 +21,17 @@
   background-size: cover;
 }
 
+#bg-1{
+  width: 100%;
+  height: 52rem;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url(/assets/images/somos.png);
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+}
+
 
 .nav-3{
   margin-top: 3rem;
@@ -43,6 +54,8 @@
 .mont{
   margin-top: 10rem;
 }
+
+
 
 
 
