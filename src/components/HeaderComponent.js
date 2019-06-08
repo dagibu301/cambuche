@@ -12,6 +12,24 @@ class Header extends Component {
       isNavOpen: false
     };
     this.toggleNav = this.toggleNav.bind(this);
+    this.handleScroll = this.handleScroll.bind(this);
+  }
+
+  componentDidMount() {
+    window.addEventListener('scroll', this.handleScroll);
+  }
+
+  componentWillUnmount() {
+      window.removeEventListener('scroll', this.handleScroll);
+  }
+
+  handleScroll(event) {
+      if (window.scrollY === 0 && this.state.scrolling === true) {
+          this.setState({scrolling: false});
+      }
+      else if (window.scrollY !== 0 && this.state.scrolling !== true) {
+          this.setState({scrolling: true});
+      }
   }
 
   toggleNav() {
@@ -23,23 +41,23 @@ class Header extends Component {
   render() {
     return(
 
-      <div className="header navbar-scroll">
+      <div style={{ opacity: this.state.scrolling ? '1' : '0.8'}} className={`header ${this.state.scrolling ? '' : ''}`}>
             <div className="row">
-              <div className="col-6">
-                <picture>
+              <div className={`col-6 `}>
+                <picture >
                       <source media="(max-width: 575px)" srcset="/assets/images/imgs-12.png" />
                       <source media="(max-width: 768px)" srcset="/assets/images/imgs-12.png" />
                       <source media="(max-width: 991px)" srcset="/assets/images/imgs-12.png" />
                       <source media="(max-width: 1199px)" srcset="/assets/images/imgs-12.png" />
-                      <img src="/assets/images/imgs-12.png"  />
+                      <img className={` ${this.state.scrolling ? 'logo' : ''}`} src="/assets/images/imgs-12.png"  />
                 </picture>
-                
+
               </div>
 
-              <div className="col-5">
+              <div className={`col-5 ${this.state.scrolling ? '' : ''}`}>
 
-              <div className="row nav-3">
-                <div className="row nav-2">
+              <div className={`row nav-3 ${this.state.scrolling && !this.state.isNavOpen ? ' col-logo' : ''} `}>
+                <div className={`row nav-2 ${this.state.scrolling ? 'd-none' : ''}`}>
                 <Navbar dark>
                   <div >
                     <Nav  navbar >
