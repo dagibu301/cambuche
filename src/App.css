@@ -1,3 +1,30 @@
+@font-face {
+  font-family: OratorStd;
+  src: url(/assets/fonts/OratorStd.otf);
+}
+
+@font-face {
+  font-family: DelioFont;
+  src: url(/assets/fonts/Delio-trial-2.ttf);
+}
+
+
+@font-face {
+  font-family: AvenirNext;
+  src: url(/assets/fonts/Avenir-Next.ttc);
+  font-weight: normal;
+}
+
+.yellow-tittle{
+  font-family: DelioFont!important;
+  font-size: 5rem;
+  color: yellow;
+}
+
+body{
+  font-family: OratorStd;
+}
+
 
 .header{
   background-color: #0f4399;
@@ -48,7 +75,8 @@
 }
 
 .text{
-  font-size: 1rem;
+  font-size: 1.3rem;
+  font-family: AvenirNext!important;
 }
 
 .mont{
