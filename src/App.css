@@ -21,6 +21,14 @@
   color: #FFBE1B;
 }
 
+@media only screen and (max-width: 991px) {
+  .yellow-tittle{
+    font-size: 3rem;
+
+
+  }
+}
+
 body{
   font-family: OratorStd;
 }
