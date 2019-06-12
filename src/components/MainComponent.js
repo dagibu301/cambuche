@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import Header from './HeaderComponent';
 import Home from './HomeComponent';
 import Hospedaje from './HospedajeComponent';
+import Footer from './FooterComponent';
 import {Switch, Route, Redirect, withRouter } from 'react-router-dom';
 
 class Main extends Component {
@@ -21,6 +22,7 @@ class Main extends Component {
               <Route path='/contacto' component={Home} />
           </Switch>
         </div>
+        <Footer />
       </div>
     );
 

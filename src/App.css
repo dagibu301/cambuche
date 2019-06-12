@@ -24,8 +24,6 @@
 @media only screen and (max-width: 991px) {
   .yellow-tittle{
     font-size: 3rem;
-
-
   }
 }
 
@@ -34,8 +32,9 @@ body{
 }
 
 
+
 .header{
-  background-color: #0f4399;
+  background-color: #273E44;
   padding-top: 1rem;
   padding-left: 4rem;
   padding-bottom: 0px;
@@ -43,6 +42,23 @@ body{
   position: fixed;
   width: 100%;
   z-index: 1000000000;
+}
+
+.footer{
+  color: #BEC8CD;
+
+}
+
+.footer-row{
+  margin-top: 15rem;
+  background-color: #273E44;
+  font-size: 1.5rem;
+}
+
+img.footer-img{
+
+  margin-top: -12rem!important;
+
 }
 
 #main-bg{
@@ -117,5 +133,5 @@ body{
 }
 
 .navbar-scroll.navbar-fixed-top{
-  background: #9e000c;
+  background: #273E44;
 }

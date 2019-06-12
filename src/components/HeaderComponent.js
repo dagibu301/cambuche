@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import { Media, Navbar,  Nav, NavbarToggler, Collapse, NavItem, NavDropdown, Form, Formcontrol, Button } from 'reactstrap';
 import {NavLink} from 'react-router-dom';
+import Hospedaje from './HospedajeComponent';
 
 
 class Header extends Component {

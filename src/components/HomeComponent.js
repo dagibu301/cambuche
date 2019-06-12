@@ -2,6 +2,7 @@ import React from 'react';
 import { Media } from 'reactstrap';
 import Hospedaje from './HospedajeComponent';
 
+
 function Home() {
     return(
       <div>
