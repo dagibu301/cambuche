@@ -26,30 +26,30 @@ function Hospedaje() {
         </div>
         <div className="row mt-5">
 
-          <div className="ml-5 col-sm-12  col-md-5 col-xl-3 mr-xl-5 mt-4">
+          <div className="col-sm-12  col-lg-5 col-xl-3 mr-xl-5 mt-4">
             <img className="img-hos" src="/assets/images/cozy-cambuche.png" alt="cozy cambuche" />
 
           </div>
 
-          <div className="ml-5 col-sm-12 col-md-5 col-xl-3 mr-xl-5 mt-4 ">
+          <div className="col-sm-12 col-lg-5 col-xl-3 mr-xl-5 mt-4 ">
             <Media  className="img-hos" object src='/assets/images/chill-cambuche.png' alt='chill cambuche' />
           </div>
 
-          <div className="ml-5 col-sm-12 col-md-5  col-xl-3 mt-4 ">
+          <div className="col-sm-12 col-lg-5  col-xl-3 mt-4 ">
             <Media className="img-hos"  object src='/assets/images/camping.png' alt='camping' />
           </div>
 
 
 
-          <div className="ml-5 col-12 col-md-5 col-sm-12 col-xl-3 mr-xl-5 mt-4 ">
+          <div className="col-12 col-lg-5 col-sm-12 col-xl-3 mr-xl-5 mt-4 ">
             <Media  className="img-hos" object src='/assets/images/cozy-room.png' alt='cozy room' />
           </div>
 
-          <div className="ml-5 col-12 col-md-5 col-sm-12 col-xl-3 mr-xl-5 mt-4 ">
+          <div className="col-12 col-lg-5 col-sm-12 col-xl-3 mr-xl-5 mt-4 ">
             <Media className="img-hos" object src='/assets/images/chill-room.png' alt='chill room' />
           </div>
 
-          <div className="ml-5 col-12  col-md-5 col-sm-12 col-xl-3 mt-4">
+          <div className="col-12  col-lg-5 col-sm-12 col-xl-3 mt-4">
             <Media className="img-hos" object src='/assets/images/shared room.png' alt='shared room' />
           </div>
 
