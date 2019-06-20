@@ -17,7 +17,7 @@ class Main extends Component {
               <Route exact path='/' component={Home} />
               <Route exact path='/home' component={Home} />
               <Route path='/menu' component={Home} />
-              <Route path='/actividades' component={Home} />
+              <Route path='/actividades' component={Actividades} />
               <Route path='/reservas' component={Hospedaje} />
               <Route path='/galeria' component={Home} />
               <Route path='/contacto' component={Home} />

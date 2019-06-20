@@ -11,12 +11,12 @@ function Home() {
          </div>
 
          <div className="row">
-          <div className="col-12 offset-md-1  col-xl-6">
+          <div className="col-12 offset-md-1  col-lg-6">
             <div id="bg-1"></div>
           </div>
 
-          <div className="col-10 col-xl-4 ml-5 mont">
-              <div className="ml-md-5">
+          <div className="col-10 col-lg-4 ml-5 mont">
+              <div className="">
                 <Media object src='/assets/images/montana.png' alt='montanta' />
               </div>
 

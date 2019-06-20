@@ -6,7 +6,7 @@ function Actividades() {
     return(
       <div>
 
-          <div className="row actividades">
+          <div className="row margh">
             <div className="offset-md-1 mr-2 col-md-2 d-block d-sm-none " id="bg-2-lines" >
             </div>
 

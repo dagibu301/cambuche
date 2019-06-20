@@ -41,6 +41,7 @@ class Header extends Component {
 
   render() {
     return(
+      <div >
 
       <div style={{ opacity: this.state.scrolling ? '1' : '0.8'}} className={`header ${this.state.scrolling ? '' : ''}`}>
             <div className="row">
@@ -81,10 +82,10 @@ class Header extends Component {
                           <NavLink className="nav-link"  to='/home'><span className="fa fa-homea fa-lg"></span> MENU </NavLink>
                         </NavItem>
                         <NavItem className="mr-4">
-                          <NavLink className="nav-link"  to='/home'><span className="fa fa-homea fa-lg"></span> ACTIVIDADES </NavLink>
+                          <NavLink className="nav-link"  to='/actividades'><span className="fa fa-homea fa-lg"></span> ACTIVIDADES </NavLink>
                         </NavItem>
                         <NavItem className="mr-4">
-                          <NavLink className="nav-link"  to='/home'><span className="fa fa-homea fa-lg"></span> RESERVAS </NavLink>
+                          <NavLink className="nav-link"  to='/reservas'><span className="fa fa-homea fa-lg"></span> RESERVAS </NavLink>
                         </NavItem>
                         <NavItem className="mr-4">
                           <NavLink className="nav-link"  to='/home'><span className="fa fa-homea fa-lg"></span> GALERÍA </NavLink>
@@ -107,6 +108,11 @@ class Header extends Component {
               </div>
             </div>
           </div>
+          <div className="headerspace">
+          </div>
+
+
+        </div>
     );
   }
 }

@@ -4,7 +4,7 @@ import { Media } from 'reactstrap';
 function Hospedaje() {
     return(
       <div>
-        <div className="row mt-5">
+        <div className="row margh">
 
           <div className="offset-md-1 mr-2 col-md-2 " id="bg-2-lines" >
           </div>

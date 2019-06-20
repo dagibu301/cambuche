@@ -78,6 +78,7 @@ body{
   background-color: #273E44;
   padding-top: 1rem;
   padding-left: 4rem;
+
   padding-bottom: 0px;
   opacity: 0.8;
   position: fixed;
@@ -111,18 +112,45 @@ img.footer-img{
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
+  margin-bottom: 5rem;
+  margin-top: -11rem;
 }
 
 #bg-1{
   width: 100%;
-  height: 42rem;
+  height: 37rem;
   background-repeat: no-repeat;
-  background-position: center;
+  background-position: left;
   background-image: url(/assets/images/somos.png);
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
 }
+
+@media only screen and (min-width: 800px) {
+  #bg-1{
+    height: 45rem;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  #bg-1{
+    height: 37rem;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  #bg-1{
+    height: 40rem;
+  }
+}
+
+@media only screen and (min-width: 1400px) {
+  #bg-1{
+    height: 45rem;
+  }
+}
+
 
 #bg-2-lines{
   width: 100%;
@@ -177,9 +205,7 @@ img.footer-img{
   background: #273E44;
 }
 
-.actividades{
-  margin-top: 8rem;
-}
+
 
 .imgcontainer {
   position: relative;
@@ -227,4 +253,12 @@ img.footer-img{
 
 .actividadesul{
    list-style-type: none;
+}
+
+.margh{
+  margin-top: 8rem;
+}
+
+.headerspace{
+  height: 11rem;
 }
