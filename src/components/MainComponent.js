@@ -3,6 +3,7 @@ import Header from './HeaderComponent';
 import Home from './HomeComponent';
 import Hospedaje from './HospedajeComponent';
 import Actividades from './ActividadesComponent';
+import Galeria from './GaleriaComponent';
 import Footer from './FooterComponent';
 import {Switch, Route, Redirect, withRouter } from 'react-router-dom';
 
@@ -19,7 +20,7 @@ class Main extends Component {
               <Route path='/menu' component={Home} />
               <Route path='/actividades' component={Actividades} />
               <Route path='/reservas' component={Hospedaje} />
-              <Route path='/galeria' component={Home} />
+              <Route path='/galeria' component={Galeria} />
               <Route path='/contacto' component={Home} />
           </Switch>
         </div>

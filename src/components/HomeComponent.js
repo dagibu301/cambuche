@@ -2,6 +2,8 @@ import React from 'react';
 import { Media } from 'reactstrap';
 import Hospedaje from './HospedajeComponent';
 import Actividades from './ActividadesComponent';
+import Galeria from './GaleriaComponent';
+
 
 
 function Home() {
@@ -42,6 +44,7 @@ function Home() {
          </div>
          <Hospedaje />
          <Actividades />
+         <Galeria />
       </div>
     );
 }
