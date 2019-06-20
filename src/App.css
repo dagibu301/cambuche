@@ -176,3 +176,55 @@ img.footer-img{
 .navbar-scroll.navbar-fixed-top{
   background: #273E44;
 }
+
+.actividades{
+  margin-top: 8rem;
+}
+
+.imgcontainer {
+  position: relative;
+  margin-top: 5rem;
+}
+
+/* Bottom right text */
+.text-block {
+  position: absolute;
+  top: 5rem;
+  left: -9rem;
+  background-color: #FFBE1B;
+  opacity: 0.9;
+  color: white;
+  font-size: 4rem;
+  font-weight: bold;
+  padding-top: 3.5rem;
+  padding-left: 3rem;
+  padding-right: 5rem;
+
+}
+
+@media only screen and (max-width: 1500px) {
+  .text-block {
+    font-size: 3rem;
+  }
+}
+
+@media only screen and (max-width: 1200px) {
+  .text-block {
+    font-size: 2rem;
+  }
+}
+
+@media only screen and (max-width: 992px) {
+  .text-block {
+    top: 2rem;
+    left: -4rem;
+  }
+}
+
+.actividadesimg{
+  width: 100%;
+}
+
+.actividadesul{
+   list-style-type: none;
+}

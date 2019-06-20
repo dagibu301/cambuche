@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import Header from './HeaderComponent';
 import Home from './HomeComponent';
 import Hospedaje from './HospedajeComponent';
+import Actividades from './ActividadesComponent';
 import Footer from './FooterComponent';
 import {Switch, Route, Redirect, withRouter } from 'react-router-dom';
 
